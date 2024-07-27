@@ -10,8 +10,10 @@ public:
                 arr[i + 2] % 2 != 0) {
                 return true;
             }
-            // if ( size-2==i)
-            //    break;
+            if( arr[i+2] % 2 != 0)
+            {
+              i= i+3;
+            }
             
         }
         return false;
